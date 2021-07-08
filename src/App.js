@@ -18,13 +18,13 @@ function App() {
   return (
   <Router>
     <Switch>
-      <Route exact path="/home">
+      <Route exact path="/">
       <Home/>
       </Route>
 
-      {/* <Route path="/home">
+      <Route path="/home">
       <Home/>
-      </Route> */}
+      </Route>
       <Route path="/user/:id">
         <UserDetail/>
       </Route>
