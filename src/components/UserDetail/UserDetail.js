@@ -15,7 +15,7 @@ const UserDetail = () => {
         .then( res => res.json())
         .then ( data => setItems(data))
 
-    }, [])
+    }, [id])
 
 
     return (
